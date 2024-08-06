@@ -1,0 +1,1475 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+body{
+    width: 100%;
+    margin: 0;
+    overflow-x: hidden;
+    background-color: whitesmoke;
+  }
+.StartPic{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+}
+#Pole{
+    display: flex;
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+}
+.Shapka{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1168px;
+    height: 30.24px;
+    margin-left: 376px;
+    margin-right: 376px;
+    margin-top: 28.88px;
+    font-weight: 300;
+}
+#YrTr:hover{
+    cursor: pointer;
+}
+/* черный цвет*/
+#Phone{
+    font-size: 20px;
+    line-height: 142%;
+    color: white;
+}
+#Phone:hover{
+    cursor: pointer;
+}
+.MiniShapka{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 50px;
+    width: 468px;
+    height: 28px;
+    font-size: 20px;
+    line-height: 142%;
+    color: white;
+    transition: 0.5s;
+}
+.MiniShapka p:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    transition: 1s;
+}
+.MainHeader{
+    z-index: 2;
+    position: absolute;
+    margin-top: 88px;
+    margin-right: 576px;
+    margin-left: 576px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 50px;
+}
+#Header{
+    margin-top: 119px;
+    width: 768px;
+    height: 315px;
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 109%;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: white;
+}
+#UderHeader{
+    position: absolute;
+    margin-top: 545px;
+    width: 562px;
+    height: 56px;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 142%;
+    text-align: center;
+    color: white;
+}
+#TourButton{
+    display: flex;
+    position: absolute;
+    flex-direction: row;
+    align-items: flex-start;
+    margin-top: 683px;
+    padding: 5px 20px;
+    gap: 10px;
+    width: 118px;
+    height: 34px;
+    background:white;
+    border-radius: 10px;
+    border: white;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 142%;
+    letter-spacing: -0.01em;
+}
+#TourButton:hover{
+    background-color: darkorange;
+    cursor: pointer;
+    color: white;
+    transition: 0.1s;
+}
+#TourButton:active{
+    cursor: pointer;
+    color: black;
+    background-color: lightgoldenrodyellow;
+    transition: 1s;
+}
+/*категории*/
+.ChooseTour{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 35px;
+    width: 700px;
+    height: 142px;
+    margin-top: 960px;
+    margin-left: 600px;
+
+}
+#Viberi{
+    width: 473px;
+    height: 73px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 59px;
+    line-height: 124%;
+    text-align: center;
+}
+.Categories{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 30px;
+    width: 700px;
+    height: 34px;
+
+    margin-top: 98px;
+
+}
+
+.Categories p{
+    width: 137px;
+    height: 28px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 23px;
+    line-height: 122%;
+}
+.Categories p:hover{
+    color: darkorange;
+    text-decoration: underline;
+    cursor: pointer;
+    /*разобраться с андерлайном*/
+}
+/*блок карточек*/
+.PuteshestvieVGori{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 30px;
+    width: 1170px;
+    height: 1092px;
+    margin-top: 1209px;
+
+    border: black;
+}
+.TopFrame{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 30px;
+    width: 1170px;
+    height: 531px;
+    margin-top: 106px;
+}
+#Card1{
+    width: 370px;
+    height: 531px;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 50px;
+    position: absolute;
+    /*разобраться с градиентом*/
+
+
+}
+
+.CardPic{
+    position: absolute;
+    width: 370px;
+    height: 531px;
+    border-radius: 50px;
+    filter: brightness(87%);
+
+}
+.TextFrame{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    margin-top: 50px;
+    margin-left: 50px;
+    padding: 0;
+    gap: 16px;
+    width: 270px;
+    height: 126px;
+}
+.TextFrame h3{
+    position: absolute;
+    width: 270px;
+    height: 86px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 122%;
+    color: white;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+.TextFrame p{
+    position: absolute;
+    width: 270px;
+    height: 24px;
+    margin-top: 102px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 142%;
+    color: white;
+    flex: none;
+
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
+.BottomText p{
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 277px;
+    padding: 0px;
+    gap: 15px;
+    width: 120px;
+    height: 28px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 23px;
+    line-height: 122%;
+    color: white;
+}
+.Arrow{
+    position: absolute;
+    width: 24px;
+    height: 26px;
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+
+    margin-top: 283px;
+    margin-left: 126px;
+}
+#Card2{
+    width: 370px;
+    height: 531px;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 50px;
+    position: absolute;
+    margin-left: 400px;
+}
+#Card3{
+    width: 370px;
+    height: 531px;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 50px;
+    position: absolute;
+    margin-left: 800px;
+}
+.BotFrame{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 30px;
+    width: 1170px;
+    height: 531px;
+    margin-top: 667px;
+}
+#Card4{
+    width: 370px;
+    height: 531px;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 50px;
+    position: absolute;
+    /*разобраться с градиентом*/
+}
+#Card5{
+    width: 370px;
+    height: 531px;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 50px;
+    position: absolute;
+    margin-left: 400px;
+}
+#Card6{
+    width: 370px;
+    height: 531px;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 50px;
+    position: absolute;
+    margin-left: 800px;
+}
+/*Запилить анимации и изменения картинок и остальных приколов в блоке с карточками*/
+.Form{
+    position: absolute;
+    margin-top: 3000px;
+    margin-left: 100px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 100px;
+
+    width: 1170px;
+    height: 1245px;
+
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+}
+.FormHeader{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 30px;
+
+
+    width: 458px;
+    height: 159px;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.FormHeader h2{
+    position: absolute;
+    width: 458px;
+    height: 73px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 59px;
+    line-height: 124%;
+    text-align: center;
+
+    color: black;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.FormHeader p{
+    position: absolute;
+    margin-top: 173px;
+    width: 418px;
+    height: 56px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 142%;
+    text-align: center;
+
+    color: gray;
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+.Reg{
+    margin-top: 1586px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 70px;
+    gap: 33px;
+
+    width: 1170px;
+    height: 986px;
+
+    background: #FFFFFF;
+    border-radius: 50px;
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+/* все под классы */
+#Row1{
+    margin-left: 70px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 30px;
+
+    width: 1030px;
+    height: 104px;
+}
+#name1{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 8px;
+
+    width: 500px;
+    height: 104px;
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+}
+#Row1 p{
+    width: 500px;
+    height: 28px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 142%;
+
+    color: black;
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+#name1 input{
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px;
+    gap: 10px;
+
+    width: 500px;
+    height: 68px;
+
+    background: #F9F7F4;
+
+    border: 1px solid #F4F0E9;
+    border-radius: 10px;
+
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
+#name1::placeholder{
+    width: 175px;
+    height: 28px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 142%;
+
+    color: #A6A6A6;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+#Direction{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 8px;
+    width: 500px;
+    height: 104px;
+
+    flex: none;
+    order: 1;
+    flex-grow: 1;
+}
+#dir{
+
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    gap: 10px;
+
+    width: 500px;
+    height: 68px;
+
+
+    background: #F9F7F4;
+
+    border: 1px solid #F4F0E9;
+    border-radius: 10px;
+
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
+#Row2{
+
+    margin-top: 30px;
+    margin-left: 70px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 30px;
+
+    width: 1030px;
+    height: 104px;
+
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
+#Row2 p{
+    width: 500px;
+    height: 28px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 142%;
+
+    color: black;
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+#Email{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 8px;
+
+    width: 500px;
+    height: 104px;
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+}
+#Email input{
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px;
+    gap: 10px;
+
+    width: 500px;
+    height: 68px;
+
+    background: #F9F7F4;
+
+    border: 1px solid #F4F0E9;
+    border-radius: 10px;
+
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
+#Email::placeholder{
+    width: 177px;
+    height: 28px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 142%;
+
+    color: #A6A6A6;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+#Phone{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 8px;
+
+    width: 500px;
+    height: 104px;
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+}
+#Phone input{
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px;
+    gap: 10px;
+
+    width: 500px;
+    height: 68px;
+
+    background: #F9F7F4;
+
+    border: 1px solid #F4F0E9;
+    border-radius: 10px;
+
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
+#Phone::placeholder{
+    width: 177px;
+    height: 28px;
+
+    font-family:'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 142%;
+
+    color: #A6A6A6;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+#Row3{
+
+    margin-top: 30px;
+    margin-left: 70px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 30px;
+
+    width: 1030px;
+    height: 104px;
+
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
+#Row3 p{
+    width: 500px;
+    height: 28px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 142%;
+
+    color: black;
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+#Date1{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 8px;
+
+    width: 500px;
+    height: 104px;
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+}
+#Date1 input{
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px;
+    gap: 10px;
+
+    width: 500px;
+    height: 68px;
+
+    background: #F9F7F4;
+
+    border: 1px solid #F4F0E9;
+    border-radius: 10px;
+
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
+#Date1::placeholder{
+    width: 177px;
+    height: 28px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 142%;
+
+    color: #A6A6A6;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+#Date2{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 8px;
+
+    width: 500px;
+    height: 104px;
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+}
+#Date2 input{
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px;
+    gap: 10px;
+
+    width: 500px;
+    height: 68px;
+
+    background: #F9F7F4;
+
+    border: 1px solid #F4F0E9;
+    border-radius: 10px;
+
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
+#Date2::placeholder{
+    width: 177px;
+    height: 28px;
+
+    font-family:'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 142%;
+
+    color: #A6A6A6;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+#Row4{
+    display: flex;
+    margin-left: 70px;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 8px;
+
+    width: 1030px;
+    height: 188px;
+
+    flex: none;
+    order: 3;
+    align-self: stretch;
+    flex-grow: 0;
+}
+#Row4 p{
+
+    width: 500px;
+    height: 28px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 142%;
+
+    color: black;
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+#comment textarea{
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px;
+    gap: 10px;
+
+    width: 1030px;
+    height: 152px;
+
+
+    background: #F9F7F4;
+
+    border: 1px solid #F4F0E9;
+    border-radius: 10px;
+
+
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
+#comment::placeholder{
+    width: 0px;
+    height: 112px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 142%;
+
+    color: #A6A6A6;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+#Row5{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 30px;
+
+    width: 1030px;
+    height: 64px;
+
+    flex: none;
+    order: 4;
+    align-self: stretch;
+    flex-grow: 0;
+}
+#agecheck{  /*див в диве и организовать все*/
+
+}
+#Row6{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 19px;
+
+    width: 554px;
+    height: 26px;
+
+    flex: none;
+    order: 5;
+    flex-grow: 0;
+}
+#Row7{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 30px;
+
+    width: 500px;
+    height: 58px;
+
+    flex: none;
+    order: 6;
+    flex-grow: 0;
+}
+#TourButton2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 30px;
+    gap: 10px;
+
+    width: 235px;
+    height: 58px;
+
+    background: #286562;
+    border-radius: 10px;
+    color: white;
+
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 142%;
+}
+#TourButton2:hover{
+    background-color: #3B7E7B;
+    cursor: pointer;
+    color: white;
+    transition: 1s;
+    top: 5767px;
+}
+#TourButton2:active{
+    cursor: pointer;
+    background: #627F7E;;
+    color: white;
+    transition: 0.1s;
+    top: 5993px;
+}
+#UndoButton{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 30px;
+    gap: 10px;
+
+    width: 235px;
+    height: 58px;
+
+    background: #E0F0E5;
+    border-radius: 10px;
+    border-color: #E0F0E5;
+    color: #286562;
+
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 142%;
+}
+#UndoButton:hover{
+    background-color: #F1F3F2;
+    cursor: pointer;
+    color: #286562;
+    transition: 1s;
+    top: 5767px;
+}
+#UndoButton:active{
+    cursor: pointer;
+    background: #D9DFDB;;
+    color: #286562;
+    transition: 0.1s;
+    top: 5993px;
+}
+.Feedback{
+    position: absolute;
+    margin-top: 4100px;
+    margin-left: 400px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+
+    width: 1170px;
+    height: 1005px;
+
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+}
+#head{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+#head h2{
+
+    width: 529px;
+    height: 146px;
+
+    text-align: center;
+    font-size: 59px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 124%;
+
+    color: #1B1F2B;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+#head p{
+
+    display: flex;
+    width: 418px;
+    flex-direction: column;
+    color:  #A6A6A6;
+    text-align: center;
+
+    font-size: 20px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 142%;
+}
+#Reports{
+    display: flex;
+    width: 1170px;
+    align-items: flex-start;
+    gap: 30px;
+}
+.maria{
+    display: flex;
+    padding: 40px;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex: 1 0 0;
+    align-self: stretch;
+
+    border-radius: 50px;
+    background: #F4F0E9;
+}
+.maria p{
+    display: flex;
+    flex-direction: column;
+    align-self: stretch;
+
+    color: #1B1F2B;
+
+    font-size: 23px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 122%;
+}
+.profile{
+    display: flex;
+    padding-top: 70px;
+    align-items: flex-end;
+    align-self: stretch;
+}
+.text h3{
+    display: flex;
+    flex-direction: column;
+    align-self: stretch;
+    color: #1B1F2B;
+
+    font-size: 35px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 122%;
+}
+.text p{
+    display: flex;
+    flex-direction: column;
+    align-self: stretch;
+    color: #A6A6A6;
+
+    font-size: 17px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 142%;
+    letter-spacing: -0.17px;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    flex: 1 0 0;
+}
+.pfp{
+    width: 75px;
+    height: 75px;
+}
+#toptext{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+#toptext h2{
+
+    margin-top: 5350px;
+    color: #1B1F2B;
+    text-align: center;
+
+    font-size: 59px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 124%;
+}
+#toptext p{
+    display: flex;
+    width: 418px;
+    flex-direction: column;
+
+    color: #A6A6A6;
+    text-align: center;
+
+    font-size: 20px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 142%;
+}
+#pics{
+    margin-top: 100px;
+    display: flex;
+    width: 1920px;
+    padding: 0px 30px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+}
+.lane1{
+    display: flex;
+    align-items: flex-start;
+    gap: 30px;
+    align-self: stretch;
+}
+.lane2{
+    display: flex;
+    align-items: flex-start;
+    gap: 30px;
+    align-self: stretch;
+}
+.lane3{
+    display: flex;
+    align-items: flex-start;
+    gap: 30px;
+    align-self: stretch;
+}
+.stories{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+#storyheader{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+#storyheader h2{
+
+   margin-top: 100px;
+    color: #1B1F2B;
+    text-align: center;
+
+    font-size: 59px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 124%;
+}
+#storyheader p {
+    display: flex;
+    width: 418px;
+    flex-direction: column;
+
+    color: #A6A6A6;
+    text-align: center;
+
+    font-size: 20px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 142%;
+}
+.storycards{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+.card{
+    border-radius: 50px;
+    width: 1170px;
+    height: 567px;
+
+}
+#card11{
+    background: url("Pics/image 39.png");
+}
+#card22{
+    background: url("Pics/image 46.png");
+}
+#card33{
+    background: url("Pics/image 38.png");
+}
+.bottom{
+    display: flex;
+    width: 100%;
+    padding: 0px 60px 60px 60px;
+    justify-content: space-between;
+    align-items: center;
+}
+.bt{
+    display: inline-flex;
+    align-items: center;
+    gap: 15px;
+}
+.bt p{
+    color:#FFF;
+
+    font-family: Roboto;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 122%;
+}
+.socials{
+    margin-right: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+}
+.socials p{
+    color: #FFF;
+
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 142%;
+}
+.mt{
+    display: flex;
+    width: 1170px;
+    height: 394px;
+    padding: 60px 0px 0px 60px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 37px;
+    flex-shrink: 0;
+}
+.mt h3{
+    display: flex;
+    width: 554px;
+    flex-direction: column;
+    flex-shrink: 0;
+
+    color:#FFF;
+
+    font-family: Roboto;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 122%;
+}
+.mt p{
+    display: flex;
+    width: 554px;
+    flex-direction: column;
+    flex-shrink: 0;
+
+    color:#FFF;
+
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 142%;
+}
+.appendix{
+    margin-left: 550px;
+    margin-top: 150px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.appendixtext{
+    display: flex;
+    width: 371px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+}
+.appendixtext h3{
+    display: flex;
+    flex-direction: column;
+    align-self: stretch;
+
+    color:#1B1F2B;
+
+    font-family: Roboto;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 122%;
+}
+.appendixtext p{
+    color: #A6A6A6;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 142%;
+}
+.dno{
+    margin-top: 300px;
+    display: flex;
+    width: 100%;
+    height: 88px;
+    justify-content: center;
+    align-items: center;
+    gap: 214px;
+    background:#F4F0E9;
+}
+.dnocontent{
+    display: flex;
+    width: 1168px;
+    justify-content: space-between;
+    align-items: center;
+    flex-shrink: 0;
+}
+.dnocontent p{
+    color: #A6A6A6;
+
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 142%;
+}
+.dnosocial{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+.inst{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.inst p{
+    color:#1B1F2B;
+
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 142%;
+}
