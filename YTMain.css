@@ -951,9 +951,8 @@ body{
     align-self: stretch;
     flex-grow: 0;
 }
-#agecheck{  /*див в диве и организовать все*/
+/*#agecheck{  див в диве и организовать все*/
 
-}
 #Row6{
     display: flex;
     flex-direction: row;
